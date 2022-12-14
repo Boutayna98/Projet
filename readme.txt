@@ -16,3 +16,12 @@ métal, (ii) une bouteille en plastique et (iii) un carton.
 
 
 Tout au long de ce projet, nous allons utilisés les modèles de Deep Learning.
+
+
+Avancement du projet :
+
+- L'importation des librairies nécessaires 
+- l'étape de l'exploration de notre dataset : Nous avons exploré les features présents dans notre train dataset 
+-Nous avons aussi évaluer le pourcentage des classes des déchets 
+
+
