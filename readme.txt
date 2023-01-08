@@ -24,4 +24,4 @@ Avancement du projet :
 - l'étape de l'exploration de notre dataset : Nous avons exploré les features présents dans notre train dataset 
 -Nous avons aussi évaluer le pourcentage des classes des déchets 
 
-
+[Notebook](projet_DE.html)
