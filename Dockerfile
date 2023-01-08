@@ -1,7 +1,7 @@
 FROM tensorflow/tensorflow:latest-jupyter
 
 # Install dependencies
-RUN pip install pandas matplotlib tensorflow 
+RUN pip install pandas matplotlib tensorflow keras opencv-python numpy scipy
 
 # Copy the notebook
 COPY projet_DE.ipynb /app/projet_DE.ipynb
