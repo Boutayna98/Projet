@@ -1,10 +1,11 @@
 FROM tensorflow/tensorflow:latest-jupyter
 
 # Install dependencies
-RUN pip install pandas matplotlib 
+RUN pip install pandas matplotlib tensorflow 
 
 # Copy the notebook
 COPY projet_DE.ipynb /app/projet_DE.ipynb
+COPY split-garbage-dataset /app/split-garbage-dataset
 
 # Set the working directory
 WORKDIR /app
