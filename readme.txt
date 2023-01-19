@@ -11,8 +11,8 @@ horizontale et verticale 96pp.
 
 Ce projet est basé les modèles de Deep Learning. En premier temps, on a commencé implémenté les deux modèles 1 et 2. Le modèle 1 nommé Xception qui permet d'appliquer des convolutions séparables en profondeur. On l'a appliqué sur notre data avec plusieurs techniques de supervision de l’entraînement (Early stopping, learning curve…).
 D'autre part, le modèle 2 est une amélioration du premier modèle en utilisant un planificateur de taux d'apprentissage différent , cette fois il est exponentiel, pour lisser la courbe.
-Et finalement, on a implémenté le model YOLO en utilisant le modèle 2 pour détecter et reconnaître divers objets (existant dans notre data) dans une vidéo/image qu'on lui donne (en temps réel).
+Et finalement, on a implémenté le model CNN en utilisant le modèle 2 pour détecter et classifier divers objets (existant dans notre data) dans une vidéo/image qu'on lui donne (en temps réel).
 
 Nous avons mis en place, une application flask, qui permet de sélectionner une vidéo et afficher le résultat de notre modèle. 
 
-[Notebook](projet_DE.html)
+
