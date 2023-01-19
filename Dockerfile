@@ -1,7 +1,7 @@
 FROM tensorflow/tensorflow:latest-jupyter
 
 # Install dependencies
-RUN pip install pandas matplotlib tensorflow keras numpy scipy yolo3 opencv-python
+RUN pip install pandas matplotlib tensorflow keras numpy scipy yolo3 opencv-python-headless scikit-learn
 
 # Copy the notebook
 COPY projet_DE.ipynb /app/projet_DE.ipynb
